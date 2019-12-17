@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>前端学习</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="keywords" content="SEO,爬虫，搜索引擎、百度、html优化、前端学习路线、前端学习资料、前端学习视频、慕课网、前端面试、Angular、React、Vue">
+  <meta name="description" content="前端学习资料整理，超级全面的前端资料，涉及html，css，js，ts，前端各大框架，react，angular，vue，前端面试，慕课网，前端学习视频">
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <link rel="stylesheet" href="//unpkg.com/docsify/lib/themes/vue.css">
+  <!-- <link rel="stylesheet" href="//unpkg.com/docsify/themes/pure.css"> -->
+</head>
+<body>
+  <div id="app">加载中</div>
+  <script>
+    window.$docsify = {
+      el: '#app',
+      name: '前端学习',
+      search: 'auto',
+      // or
+      repo: 'https://github.com/smilemuffie',
+      // 加载 _sidebar.md
+      loadSidebar: true,
+      // 加载 summary.md
+      loadSidebar: 'summary.md',
+      loadNavbar: true,
+      loadNavbar: 'nav.md',
+      subMaxLevel: 2,
+      coverpage: true,
+      search: {
+        noData: {
+          '/': '没有结果!',
+        },
+        paths: 'auto',
+        placeholder: '搜索',
+        placeholder: {
+          '/': '搜索',
+        }
+      },
+      formatUpdated: '{MM}/{DD} {HH}:{mm}',
+    }
+  </script>
+  <script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
+  <script src="//unpkg.com/docsify/lib/plugins/zoom-image.js"></script>
+  <script src="//unpkg.com/docsify-copy-code"></script>
+  <script src="//unpkg.com/prismjs/components/prism-bash.js"></script>
+  <script src="//unpkg.com/prismjs/components/prism-css.min.js"></script>
+  <script src="//unpkg.com/docsify-sidebar-collapse/dist/docsify-sidebar-collapse.min.js"></script>
+</body>
+</html>
